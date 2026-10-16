@@ -22,10 +22,9 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          # cache: 'npm'  <-- DIHAPUS agar tidak error lock file
+          node-version: 20   # <-- Gunakan Node 20, bukan 22
       - name: Install dependencies
-        run: npm install  # <-- diubah dari "npm ci"
+        run: npm install
       - name: Build
         run: npm run build
       - name: Setup Pages
