@@ -1,0 +1,7 @@
+{
+  "name": "infopesantren.online",
+  "description": "Portal berita pesantren modern dan responsif: beasiswa santri, kajian kitab kuning, khazanah ulama nusantara, kolom komentar interaktif, dan integrasi media sosial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
